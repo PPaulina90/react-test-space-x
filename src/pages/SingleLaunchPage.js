@@ -14,7 +14,7 @@ const SingleLaunchPage = () => {
   }
   const { details, upcoming, success, name, links } = data;
   return (
-    <div classNamez="launches">
+    <div className="launches">
       <h1 className="title">Single Launch Page</h1>
       <Details
         details={details}
